@@ -1,18 +1,25 @@
-​public int strStr1(String haystack, String needle) {
-    return haystack.indexOf(needle);
-}
-
-public int strStr(String haystack, String needle) {
-    if (haystack == null || needle == null)
+class Solution {
+    public int strStr(String haystack, String needle) {
+        int i=0,k=0,res=0;
+       if (haystack == null || needle == null)
         return -1;
-    int l1 = haystack.length();
-    int l2 = needle.length();
-    for (int i = 0; i < l1-l2+1; i++) {
-        int count = 0;
-        while (count < l2 && haystack.charAt(i+count) == needle.charAt(count))
-            count++;
-        if (count == l2)
-            return i;
+        while(i<haystack.length()){
+            if(haystack.charAt(i)!=needle.charAt(k)){
+                i=i-k;
+                k=0;
+                i++;
+            }
+            else{
+                System.out.println(i);
+                i++;
+                k++;
+                if(k==needle.length()){
+                    System.out.println(k);
+                    return i-k;
+                }
+                    
+            }
+        }
+        return -1;
     }
-    return -1;
 }
