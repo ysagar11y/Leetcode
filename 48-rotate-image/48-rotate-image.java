@@ -1,5 +1,8 @@
 class Solution {
     public void rotate(int[][] matrix) {
+        
+        //transpose, reflect
+        
         int temp=0;
         int n=matrix.length;
         for (int i = 0; i < n; i++) {
