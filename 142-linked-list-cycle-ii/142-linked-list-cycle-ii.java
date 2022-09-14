@@ -21,7 +21,7 @@ public class Solution {
                 break;
         }
         
-        if (fast == null || fast.next == null) return null;
+         if (fast == null || fast.next == null) return null;
         
         while(head!=slow){
             head=head.next;
