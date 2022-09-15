@@ -1,38 +1,43 @@
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
-        int nums1=-1,nums2=-1,c1=0,c2=0,n=nums.length/3;
-        for(int i:nums){
-            if(i==nums1) c1++;
-            else if(i==nums2) c2++;
-            else if(c1==0){
-                nums1=i;
-                c1=1;
-            }
-            else if(c2==0){
-                nums2=i;
-                c2=1;
-            }
-            else
-            {
-                c1--;
-                c2--;
-            }
-        }
+        int number1 = -1, number2 = -1, count1 = 0, count2 = 0, len = nums.length;
         
-        System.out.println(nums1+" "+nums2);
-        List ans=new ArrayList<>();
-        c1=0;
-        c2=0;
-        for(int i:nums){
-            if(i==nums1)
-                c1++;
-            else if(i==nums2)
-                c2++;
+        for(int i=0;i<len;i++)
+        {
+            if(nums[i]==number1)
+                count1++;
+            else if(nums[i]==number2)
+                count2++;
+            else if(count1==0)
+            {
+                number1=nums[i];
+                count1=1;
+            }
+            else if(count2==0)
+            {
+                number2=nums[i];
+                count2=1;
+            }
+            else{
+                count1--;
+                count2--;
+            }
         }
-        if(c1>n)
-            ans.add(nums1);
-        if(c2>n)
-            ans.add(nums2);
+        List<Integer> ans = new ArrayList<Integer>();
+        count1=0;
+        count2=0;
+        
+        for(int i=0;i<len;i++)
+        {
+            if(nums[i] == number1)
+                count1++;
+            else if(nums[i]==number2)
+                count2++;
+        }
+        if(count1>len/3)
+            ans.add(number1);
+        if(count2>len/3)
+            ans.add(number2);
         return ans;
     }
 }
