@@ -17,9 +17,9 @@ class Solution {
             return;
         }
         
-        List<Integer> list2 = new ArrayList(list);
         list.add(nums[curr]);
-        solve(list2,nums,curr+1);
+        solve(list,nums,curr+1);
+        list.remove(list.size() - 1);
         solve(list,nums,curr+1);
         
     }
