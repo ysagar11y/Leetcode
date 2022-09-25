@@ -1,18 +1,11 @@
 class Solution {
     
-    public int find(int arr[])
-    {
-        int max=0;
-        for (int num : arr) {
-            max = Math.max(max, num);
-        }
-        return max;
-    }
-    
     public int longestSubarray(int[] nums) {
         
-        int t=find(nums);
-        System.out.println(t);
+        int t=0;
+        for (int num : nums) {
+            t = Math.max(t, num);
+        }
         
         int res=0,till=0;
         
