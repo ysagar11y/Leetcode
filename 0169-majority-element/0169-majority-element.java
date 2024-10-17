@@ -2,13 +2,12 @@ class Solution {
     public int majorityElement(int[] nums) {
         int c=0, ele=0;
         for(int i:nums){
-            if(c==0){
+            if(c==0)
                 ele=i;
-            }
-            if(ele==i){
+            if(ele==i)
                 c++;
-            }
-            c--;
+            else
+                c--;
         }
         return ele;
     }
