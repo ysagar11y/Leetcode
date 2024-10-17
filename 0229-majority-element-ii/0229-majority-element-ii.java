@@ -32,7 +32,6 @@ class Solution {
                 c2++;
         }
 
-        System.out.println(c1+" "+c2+" "+e1+" "+e2);
 
         if(c1>len/3)
             ans.add(e1);
