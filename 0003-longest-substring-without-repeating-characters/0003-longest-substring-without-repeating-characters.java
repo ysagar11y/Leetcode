@@ -6,13 +6,10 @@ class Solution {
         
         while (j < arr.length) {
             if (set.contains(arr[j])) {
-                // Duplicate found, shrink the window from the left
                 set.remove(arr[i]);
                 i++;
             } else {
-                // Add the character to the set and expand the window
                 set.add(arr[j]);
-                // Update the answer with the current window length
                 ans = Math.max(j - i + 1, ans);
                 j++;
             }
