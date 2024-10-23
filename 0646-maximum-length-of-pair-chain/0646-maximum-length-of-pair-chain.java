@@ -14,7 +14,6 @@ class Solution {
            
             if(max<pairs[i][0]){
                 c++;
-                System.out.println(pairs[i][0]+" "+pairs[i][1]);
                 max=pairs[i][1];
             }
         }
