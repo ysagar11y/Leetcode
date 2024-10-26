@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/ysagar11y/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [0646-maximum-length-of-pair-chain](https://github.com/ysagar11y/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0948-sort-an-array](https://github.com/ysagar11y/Leetcode/tree/master/0948-sort-an-array) |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ysagar11y/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -163,4 +164,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0646-maximum-length-of-pair-chain](https://github.com/ysagar11y/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
+## Tree
+|  |
+| ------- |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ysagar11y/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+## Depth-First Search
+|  |
+| ------- |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ysagar11y/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ysagar11y/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
+## Binary Tree
+|  |
+| ------- |
+| [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ysagar11y/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 <!---LeetCode Topics End-->
