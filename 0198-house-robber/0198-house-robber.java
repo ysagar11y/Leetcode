@@ -11,6 +11,6 @@ class Solution {
         int[] dp2 = new int[n];
         Arrays.fill(dp1, -1);
         Arrays.fill(dp2, -1);
-        return Math.max(helper(nums,0,n,dp1),helper(nums,1,n-1,dp2));
+        return Math.max(helper(nums,0,n-1,dp1),helper(nums,1,n,dp2));
     }
 }
