@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ysagar11y/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0006-zigzag-conversion](https://github.com/ysagar11y/Leetcode/tree/master/0006-zigzag-conversion) |
+| [0812-rotate-string](https://github.com/ysagar11y/Leetcode/tree/master/0812-rotate-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/ysagar11y/Leetcode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [2580-circular-sentence](https://github.com/ysagar11y/Leetcode/tree/master/2580-circular-sentence) |
 ## Sliding Window
@@ -195,4 +196,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0039-combination-sum](https://github.com/ysagar11y/Leetcode/tree/master/0039-combination-sum) |
+## String Matching
+|  |
+| ------- |
+| [0812-rotate-string](https://github.com/ysagar11y/Leetcode/tree/master/0812-rotate-string) |
 <!---LeetCode Topics End-->
