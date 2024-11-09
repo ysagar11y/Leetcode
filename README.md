@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/ysagar11y/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0948-sort-an-array](https://github.com/ysagar11y/Leetcode/tree/master/0948-sort-an-array) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ysagar11y/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [1940-maximum-xor-for-each-query](https://github.com/ysagar11y/Leetcode/tree/master/1940-maximum-xor-for-each-query) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ysagar11y/Leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ysagar11y/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ysagar11y/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0287-find-the-duplicate-number](https://github.com/ysagar11y/Leetcode/tree/master/0287-find-the-duplicate-number) |
+| [1940-maximum-xor-for-each-query](https://github.com/ysagar11y/Leetcode/tree/master/1940-maximum-xor-for-each-query) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ysagar11y/Leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ysagar11y/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
 ## Hash Table
@@ -146,6 +148,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/ysagar11y/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1940-maximum-xor-for-each-query](https://github.com/ysagar11y/Leetcode/tree/master/1940-maximum-xor-for-each-query) |
 ## String
 |  |
 | ------- |
