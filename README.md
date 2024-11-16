@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2545-height-of-binary-tree-after-subtree-removal-queries](https://github.com/ysagar11y/Leetcode/tree/master/2545-height-of-binary-tree-after-subtree-removal-queries) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/ysagar11y/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3291-find-if-array-can-be-sorted](https://github.com/ysagar11y/Leetcode/tree/master/3291-find-if-array-can-be-sorted) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ysagar11y/Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ysagar11y/Leetcode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/ysagar11y/Leetcode/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Linked List
 |  |
 | ------- |
