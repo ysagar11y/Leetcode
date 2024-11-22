@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0646-maximum-length-of-pair-chain](https://github.com/ysagar11y/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/ysagar11y/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0948-sort-an-array](https://github.com/ysagar11y/Leetcode/tree/master/0948-sort-an-array) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/ysagar11y/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ysagar11y/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ysagar11y/Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1755-defuse-the-bomb](https://github.com/ysagar11y/Leetcode/tree/master/1755-defuse-the-bomb) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/ysagar11y/Leetcode/tree/master/0048-rotate-image) |
 | [0063-unique-paths-ii](https://github.com/ysagar11y/Leetcode/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/ysagar11y/Leetcode/tree/master/0074-search-a-2d-matrix) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/ysagar11y/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/ysagar11y/Leetcode/tree/master/2343-count-unguarded-cells-in-the-grid) |
 ## Binary Search
 |  |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/ysagar11y/Leetcode/tree/master/0169-majority-element) |
 | [0229-majority-element-ii](https://github.com/ysagar11y/Leetcode/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/ysagar11y/Leetcode/tree/master/0560-subarray-sum-equals-k) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/ysagar11y/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ysagar11y/Leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ysagar11y/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/ysagar11y/Leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
