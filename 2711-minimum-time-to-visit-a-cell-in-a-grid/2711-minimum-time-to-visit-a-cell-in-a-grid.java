@@ -1,51 +1,55 @@
 class Solution {
-    private static final int[][] MOVES = {{-1, 0}, {0, 1}, {1, 0}, {0, -1}};
-    
     public int minimumTime(int[][] grid) {
-        int rows = grid.length;
-        int cols = grid[0].length;
+        int m=grid.length;
+        int n=grid[0].length;
+        PriorityQueue<int[]> pq=new PriorityQueue<>((a,b)->a[2]-b[2]);  // Array: row, col, value
+        boolean[][] visited=new boolean[m][n];
         
-        if (grid[0][1] > 1 && grid[1][0] > 1) {
+
+        if (grid[0][1] > 1 && grid[1][0] > 1){           
             return -1;
         }
-        
-        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> a[0] - b[0]); 
-        boolean[][] seen = new boolean[rows][cols];
-        
-        pq.offer(new int[]{0, 0, 0}); // time, row, col
-        seen[0][0] = true;
-        
-        while (!pq.isEmpty()) {
-            int[] curr = pq.poll();
-            int time = curr[0];
-            int row = curr[1];
-            int col = curr[2];
+
+        int[][] moves={ {0,-1},{0,1},{-1,0},{1,0}};
+
+        pq.add(new int[]{0,0,0});
+        while(!pq.isEmpty()){
+            int[] arr=pq.poll();
+            int row=arr[0];
+            int col=arr[1];
+            int time=arr[2];
             
-            for (int[] dir : MOVES) {
-                int newRow = row + dir[0];
-                int newCol = col + dir[1];
-                
-                if (newRow < 0 || newRow >= rows || 
-                    newCol < 0 || newCol >= cols || 
-                    seen[newRow][newCol]) {
-                    continue;
+            if(row==m-1 && col==n-1){
+                return time;
+            } 
+
+            if(visited[row][col]) continue;
+            visited[row][col]=true;
+
+
+            for(int[] move:moves){
+                int nrow=row+move[0];
+                int ncol=col+move[1];
+
+                if(nrow>=0 && nrow<m && ncol>=0 && ncol<n && !visited[nrow][ncol]){
+                    int newtime=0; 
+                    
+                    // if(time+1>=grid[nrow][ncol]) newtime=time+1;
+                    // else if((grid[nrow][ncol]-time)%2==0) newtime=grid[nrow][ncol]+1; //even
+                    // else newtime=grid[nrow][ncol]; //odd
+
+                    int diff=grid[nrow][ncol]-time;                    
+                    if(diff<=1) newtime=time+1;                
+                    else newtime=time+1+(diff/2)*2;
+
+                    pq.add(new int[]{nrow,ncol,newtime});
+                    
                 }
-                
-                int newTime = time + 1;
-                if (grid[newRow][newCol] > newTime) {
-                    int wait = ((grid[newRow][newCol] - newTime + 1) / 2) * 2;
-                    newTime += wait;
-                }
-                
-                if (newRow == rows - 1 && newCol == cols - 1) {
-                    return newTime;
-                }
-                
-                seen[newRow][newCol] = true;
-                pq.offer(new int[]{newTime, newRow, newCol});
             }
+
+
         }
-        
+
         return -1;
     }
 }
