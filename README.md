@@ -29,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/ysagar11y/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [0948-sort-an-array](https://github.com/ysagar11y/Leetcode/tree/master/0948-sort-an-array) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/ysagar11y/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ysagar11y/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ysagar11y/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ysagar11y/Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1755-defuse-the-bomb](https://github.com/ysagar11y/Leetcode/tree/master/1755-defuse-the-bomb) |
@@ -69,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/ysagar11y/Leetcode/tree/master/0234-palindrome-linked-list) |
 | [0287-find-the-duplicate-number](https://github.com/ysagar11y/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0908-middle-of-the-linked-list](https://github.com/ysagar11y/Leetcode/tree/master/0908-middle-of-the-linked-list) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ysagar11y/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ysagar11y/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ysagar11y/Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1972-rotating-the-box](https://github.com/ysagar11y/Leetcode/tree/master/1972-rotating-the-box) |
@@ -89,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/ysagar11y/Leetcode/tree/master/0229-majority-element-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/ysagar11y/Leetcode/tree/master/0646-maximum-length-of-pair-chain) |
 | [0948-sort-an-array](https://github.com/ysagar11y/Leetcode/tree/master/0948-sort-an-array) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ysagar11y/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ysagar11y/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/ysagar11y/Leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/ysagar11y/Leetcode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -117,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/ysagar11y/Leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0287-find-the-duplicate-number](https://github.com/ysagar11y/Leetcode/tree/master/0287-find-the-duplicate-number) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/ysagar11y/Leetcode/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ysagar11y/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/ysagar11y/Leetcode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/ysagar11y/Leetcode/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/ysagar11y/Leetcode/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -142,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/ysagar11y/Leetcode/tree/master/0229-majority-element-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/ysagar11y/Leetcode/tree/master/0560-subarray-sum-equals-k) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/ysagar11y/Leetcode/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1468-check-if-n-and-its-double-exist](https://github.com/ysagar11y/Leetcode/tree/master/1468-check-if-n-and-its-double-exist) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/ysagar11y/Leetcode/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/ysagar11y/Leetcode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/ysagar11y/Leetcode/tree/master/2599-take-k-of-each-character-from-left-and-right) |
